@@ -46,9 +46,8 @@ export const ContactList = () => {
         </Table>
       )}
       {!isLoading && contacts.length === 0 && (
-        <Notification>Contact not found 😢</Notification>
+        <Notification>Contact not found 🤔</Notification>
       )}
-      {/* {isLoading && !error && <Notification>Loading ...</Notification>} */}
     </div>
   );
 };

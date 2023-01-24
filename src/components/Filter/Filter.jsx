@@ -20,7 +20,7 @@ export const Filter = () => {
           <Input
             type="text"
             onChange={changeFilter}
-            placeholder="press name or number"
+            placeholder="search by name or number"
           />
         </Label>
       )}
